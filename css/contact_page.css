@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block{
+    height: 50px;
+}
+.dotted{
+    border-style: dotted;
+    height: 130px;
+    width: 100%;
+    background-color: white;
+}
+.btn-primary{
+    height: 70px;
+    width: 100%;
+}
+.container-fluid{
+    background-image: linear-gradient(to bottom right, #CFDBE4, #FFCED8);
+}
+.center-mentor{
+    background-image: linear-gradient(to right, #FFFFFF, #6DE1C2);
+    border-radius: 20px;
+}
+.position-absolute{
+    border-radius: 20px;
+    height: 95px;
+}

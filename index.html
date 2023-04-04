@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Hoàng Văn Hiếu</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="/lib/angular.js"></script>
+    <script src="/lib/angular-route.js"></script>
+    <script src="controller/main.js"></script>
+    <script src="controller/home_page.js"></script>
+    <script src="controller/contact_page.js"></script>
+    <script src="controller/order_page.js"></script>
+</head>
+<body ng-app="myapp">
+<div class="container-fluid">
+    <header class="bg-image p-auto row" style="background-image: url('./img/banner.png');">
+        <div class="row m-auto">
+            <div class="col-md-4 ps-4">
+                <img src="./img/book.png" class="m-1">
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active fw-bolder text-dark" href="#!/">Home</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link fw-bolder text-dark" href="#!/contact_page">Contact</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link fw-bolder text-dark" href="#!/order_page">Course</a>
+                    </li>
+                    <li>
+                        <button type="button" class="m-2 button-sign btn btn btn-outline-danger">
+                            <span class="text-light fw-bolder">Sign in</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 pt-5 ps-5">
+                <div class="m-auto">
+                    <h1><span class="text-warning">LEARNING </span></h1>
+                    <h1>FOR THE <span class="text-warning">FUTURE</span></h1>
+                </div>
+                <br><br>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <button class="btn btn btn-outline-danger fw-bolder text-light">Search</button>
+                </div>
+            </div>
+            <div class="col-md-6 cover">
+                <img src="./img/they.png" alt="" class="contain">
+            </div>
+        </div>
+        <div class="laning"></div>
+    </header>
+    <article>
+        <div ng-view>
+
+        </div>
+    </article>
+    <footer class="row bg-image p-auto" style="background-image: url('./img/banner.png');">
+        <div class="col-md-3 m-auto p-auto">
+            <img src="./img/book.png" class="m-1">
+            <br><br>
+            <p>
+                Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard
+                dummy a type specimen book.
+            </p>
+        </div>
+        <div class="col-md-3 m-auto p-auto">
+            <h4 class="fw-bolder">Support</h4>
+            <br>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active text-black" aria-current="page" href="#"><span class="text-dark">FAQ</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#"><span class="text-dark">Help Center</span></a>
+                </li>
+                <li class="">
+                    <a class="nav-link text-black" href="#"><span class="text-dark">Career</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3 m-auto p-auto">
+            <h4 class="fw-bolder">Courses</h4>
+            <br>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span class="text-dark">Categories</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="text-dark">Offline Courses</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="text-dark">Vidio Courses</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3 m-auto p-auto">
+            <h4 class="fw-bolder">Contact Info</h4>
+            <br>
+            <div>
+                <i class="bi bi-person-fill"></i>
+                Hoàng Văn Hiếu
+            </div>
+            <div>
+                <i class="bi bi-telephone-fill"></i>
+                0966-628-527
+            </div>
+            <div>
+                <i class="bi bi-envelope-fill"></i>
+                hieuhv203@gmail.com
+            </div>
+            <div>
+                <i class="bi bi-geo-alt-fill"></i>
+                Lý Viên - Bắc Lý - Hiệp Hòa - Bắc Giang
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-md-6 form{
+    border-radius: 20px;
+    border: 2px #6D30D4 solid;
+    background-image: linear-gradient(to right, #FFFFFF, #6DE1C2);
+}

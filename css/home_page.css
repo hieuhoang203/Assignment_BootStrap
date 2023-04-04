@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.info{
+    position: relative;
+    color: white;
+}
+.info .col-md-10{
+    background-color: #4D2C5E;
+}
+.ticket{
+    display: inline-block;
+    background-color: #4D2C5E;
+}
+.ticket p{
+    width: 200px;
+}
+.card-image{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #7b5e89;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.send-mail{
+    position: relative;
+    height: 120px;
+}
+.send-mail input{
+    height: 60px;
+    width: 500px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+.send-mail input:focus{
+    box-shadow: none;
+    border: 2px solid;
+}
+.send-mail button{
+    position: absolute;
+    top: 35px;
+    right: 165px;
+    height: 50px;
+    width: 110px;
+    background: #FF7426;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border: none;
+}
+.btn{
+    background-color: #FF7426;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+.block{
+    height: 130px;
+}
+.block-1{
+    height: 50px;
+}
+.cover{
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+}
+.image-content{
+    height: 65px;
+    width: 65px;
+    background-color: #4D2C5E;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    display: inline-block;
+}
+.content{
+    height: 70;
+}
